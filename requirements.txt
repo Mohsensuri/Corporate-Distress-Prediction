@@ -1,0 +1,9 @@
+# Packages required to run the Jupyter notebook
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+jupyter
+ipykernel
