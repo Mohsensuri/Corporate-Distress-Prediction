@@ -31,7 +31,8 @@ Beyond predictive performance, the project evaluates the practical consequences 
 - **Taiwanese Company Bankruptcy Prediction:** Financial indicators and a binary bankruptcy outcome.
 - **Corporate Credit Rating:** Company-level information and credit rating labels.
 
-The notebook expects **both datasets as CSV files** inside a `data/` folder and identifies them by the `Bankrupt?` and `Rating` column names, respectively. Dataset files are not included in this README. Confirm their redistribution terms before publishing them in a public repository.
+The notebook expects **both datasets as CSV files** inside a `data/` folder and identifies them by the `Bankrupt?` and `Rating` column names, respectively.
+The datasets are not included in this repository. Download them from their original sources and place the CSV files in the `data/` directory before running the notebook.
 
 ## Methodology
 
@@ -101,15 +102,15 @@ Corporate-Distress-Prediction/
 │   └── corporate-distress-banner.png
 ├── requirements.txt
 ├── .gitignore
-└── data/                    # Place required CSV files here locally
+└── data/                    # Create locally and place downloaded CSV datasets here
 ```
 
-The `requirements.txt` and `.gitignore` files are prepared separately in the next setup step. The notebook may also create a `results/` directory when executed.
+The notebook may also create a `results/` directory when executed.
 
 ## Running the Notebook
 
 1. Clone or download the repository.
-2. Create a Python environment and install the project dependencies using `pip install -r requirements.txt` once that file has been added.
+2. Create a Python environment and install the project dependencies using `pip install -r requirements.txt`.
 3. Place the two source CSV datasets inside the `data/` folder.
 4. Open `Corporate_Distress_Prediction.ipynb` in Jupyter or VS Code.
 5. Run the notebook cells in order from the project root directory.
